@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register</title>
+  <link rel="stylesheet" href="register.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="img-wrapper">
+        <img src="site-logo.png" alt="logo" />
+      </div>
+      <div class="first-lable">Register</div>
+      <hr />
+      <div class="form-wrapper">
+        <form aria-label="RegisterFormLabel" action="#" id="RegsiterForm"   >
+          <div class="form">
+            <div class="form-group">
+              <label class="form-label">Full Name <span>*</span></label><br />
+              <input type="text" id="full_name" placeholder="john doe" name="full_name" class="checkip" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Username <span>*</span></label><br />
+              <input type="text" id="uname" placeholder="johndoe11" name="uname" class="checkip" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email <span>*</span></label><br />
+              <input type="email" id="user_email" placeholder="johndoe11@email.com" name="user_email" class="checkip" /></div>
+            <div class="form-group">
+              <label class="form-label">Phone Number <span>*</span></label><br />
+              <input type="tel" id="phone_no" placeholder="97986545412" name="phone_no" class="checkip"/>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Password <span>*</span></label><br />
+              <input type="password" id="password" placeholder="password" name="password" class="checkip" />
+              <div class="span-2">
+                Password Strength:<br/>
+                1 Lowercase & 1 Uppercase<br/>
+                1 Number (0-9)<br />
+                1 Special Character (!@#$%^&*).<br />
+                Atleast 8 Character<br />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Confirm Password <span>*</span></label><br />
+              <input type="password" id="con_password" placeholder="Confirm password" name="con_password" class="checkip" />
+            </div>
+          </div>
+          <div class="form-submit">
+            <button class="first-btn" type="submit" > Register</button>
+            <a href="login.html" id="return-to-login">Return-to-login</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>  
+
+</html>
